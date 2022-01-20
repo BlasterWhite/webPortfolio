@@ -9,6 +9,7 @@
     width: 0;
     height: 0;
     user-select: none;
+    transition: 1s ease-in-out;
 }
 
 #font-text h1 {
@@ -35,7 +36,8 @@ nav#navbar {
     width: 100%;
     text-align: center;
     height: 50px;
-    box-shadow: #26262646 1px 2px 50px;
+    margin-bottom: 75px;
+    /* box-shadow: #26262646 1px 2px 50px; */
 }
 
 nav#navbar a {
@@ -50,5 +52,49 @@ nav#navbar a {
 }
 
 nav#navbar a:hover {
-    color: var(--myOrange);
+    color: var(--myBlue);
+}
+
+nav#navbar a.actuel {
+    line-height: 49px;
+    border-bottom: 1px var(--myGray) solid;
+}
+
+header {
+    width: 80%;
+    line-height: inherit;
+    margin: 50px;
+}
+
+h2.name {
+    font-size: 6rem;
+    margin: 0;
+    display: inline;
+}
+
+.colorRed {
+    color: var(--myRed);
+    user-select: none;
+}
+
+.colorGreen {
+    color: var(--myGreen);
+    user-select: none;
+}
+
+.colorBlue {
+    color: var(--myBlue);
+    user-select: none;
+}
+
+h2#age {
+    font-size: 3rem;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    #font-text {
+        display: none;
+    }
 }
