@@ -6,27 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matéo G. - Home</title>
     <link rel="stylesheet" href="css/charteGraphique.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/button.css">
+    <script src="https://kit.fontawesome.com/d50a18be62.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="font-text">
         <h1>DÉVELOPPEUR</h1>
         <div id="line"></div>
     </div>
-    <nav id="navbar">
-        <a href="#" class="actuel">Accueil</a>
-        <a href="#">Compétences</a>
-        <a href="#">Projets</a>
-        <a href="#">A propos</a>
-        <a href="#">Contact</a>
+    <nav>
+        <a href="#" class="activeTab"><i class="fas fa-home"></i> Accueil</a>
+        <a href="#"><i class="fas fa-dolly"></i> Compétences</a>
+        <a href="#"><i class="far fa-folder"></i> Projets</a>
+        <a href="#"><i class="fa-regular fa-user"></i> A Propos</a>
+        <a href="#"><i class="fa-regular fa-user"></i> Contact</a>
+        <p class="menubtn">Matéo GUEZENNEC</p>
+        <a class="menubtn">Menu <i class="far fa-compass"></i></a>
     </nav>
+    <br><br><br>
     <header>
-        <h2 class="name">Matéo</h2><br>
-        <h2 class="name"><span class="colorRed">-</span><span class="colorGreen">-</span><span class="colorBlue">-</span> GUEZENNEC</h2>
-        <h2 id="age">18 ans</h2>
+        <p>Bonjour, je suis</p>
+        <h2 class="name">Matéo GUEZENNEC</h2>
+        <h2 class="tiret"><span class="colorRed">-</span><span class="colorGreen">-</span><span class="colorBlue">-</span></h2>
+        <h2 id="age"></h2>
     </header>
-
-
+    <main>
+        <div class="littleabout">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing <strong>elit</strong>. Nunc convallis tincidunt consequat. Suspendisse pulvinar nulla sed sagittis ullamcorper. Nullam ac leo facilisis risus <strong>bibendum</strong> efficitur. Suspendisse lacinia, tellus a volutpat imperdiet, ipsum nisl interdum enim, ut semper est leo aliquet libero. Suspendisse elementum non ipsum eu <strong>dignissim</strong>. Nunc auctor nec mi vel gravida. Aliquam a sodales ipsum, a tempor ex.  tellus a volutpat imperdiet, ipsum nisl interdum enim, ut semper est leo aliquet libero. Suspendisse elementum non ipsum eu.
+            </p>
+            <div class="btn">
+                En savoir plus <i class="fas fa-forward"></i>
+            </div>
+        </div>
+        <div class="separator"></div>
+    </main>
     <script src="js/calculdate.js"></script>
 </body>
 </html>

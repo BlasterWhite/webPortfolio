@@ -1,0 +1,24 @@
+div.btn {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #2134DF 0%, #7885FA 100%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+    padding: 8px 15px;
+    color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    margin: 15px;
+    font-weight: 500;
+}
+
+div.btn i {
+    margin-right: 5px;
+    margin-left: 0px;
+    transition: 0.3s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+div.btn:hover i {
+    margin-left: 5px;
+    margin-right: 0px;
+}

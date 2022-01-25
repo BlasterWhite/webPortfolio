@@ -1,0 +1,51 @@
+nav {
+    height: 50px;
+    background-color: #FAFAFA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--myGray);
+    padding: 0px 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+}
+
+.menubtn {
+    display: none;
+}
+
+.activeTab {
+    color: #2134DF;
+}
+
+nav a:hover:not(.activeTab) {
+    color: var(--myRed);
+}
+
+@media only screen and (max-width: 770px) {
+    nav a:not(.menubtn) {
+        display: none;
+    }
+
+    .menubtn {
+        display: initial;        
+    }
+
+    a.menubtn {
+        float: right;
+    }
+    
+    nav {
+        text-align: left;
+        line-height: 50px;
+        padding-left: 20px;
+    }
+}

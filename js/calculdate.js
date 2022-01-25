@@ -1,9 +1,5 @@
 let age = document.getElementById("age");
 
-
-
-
-
 function getAge(date) { 
     var diff = Date.now() - date.getTime();
     var age = new Date(diff); 
@@ -12,5 +8,6 @@ function getAge(date) {
 
 setInterval(() => {
     age.innerHTML = getAge(new Date("2003, 08, 18"));
-},1000);
+},2000);
 
+age.innerHTML = getAge(new Date("2003, 08, 18"));
