@@ -3,7 +3,7 @@
     font-family: 'uni_caps', Arial, sans-serif;
     font-size: 8rem;
     transform: rotate(90deg);
-    position: fixed;
+    position: absolute;
     top: 350px;
     right: 0px;
     width: 0;
@@ -25,7 +25,7 @@
     position: relative;
     top: -455px;
     right: 85px;    
-    width: 850px;
+    width: 1650px;
     height: 18px;
     background-color: var(--myOrange);
     /*box-shadow: var(--myGray) 0.5px 0 30px;*/
@@ -103,6 +103,25 @@ h2#age {
     text-transform: uppercase;
 }
 
+div#langages {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h3.souspartie {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+img.iconL {
+    width: 96px;
+    opacity: 50%;
+    margin: 50px;
+    border-radius: 15px;
+}
+
 div.littleabout {
     background-color: #F2F2F2;
     border-radius: 25px;
@@ -127,7 +146,22 @@ div.littleabout p strong {
     background-color: #F2F2F2;
     height: 4px;
     border-radius: 2px;
-    margin: 25px 0;
+    margin: 25px auto;
+}
+
+div#projets {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div.projet {
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    min-width: 500px;
+    margin: 50px;
+    flex-grow: 1;
 }
 
 @media only screen and (max-width: 1200px) {
