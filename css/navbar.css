@@ -46,6 +46,7 @@ nav a:hover:not(.activeTab) {
 
     a.menubtn {
         float: right;
+        margin-right: 15px;
     }
     
     nav {

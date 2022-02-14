@@ -1,65 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-#font-text {
-    font-family: 'uni_caps', Arial, sans-serif;
-    font-size: 8rem;
-    transform: rotate(90deg);
-    position: absolute;
-    top: 350px;
-    right: 0px;
-    width: 0;
-    height: 0;
-    user-select: none;
-    transition: 1s ease-in-out;
-}
-
-#font-text h1 {
-    z-index: 18;
-    position: relative;
-    top: -95px;
-    right: 175px;
-    text-shadow: var(--myGray) 2px 5px 15px;
-}
-
-#font-text div#line {
-    z-index: 20;
-    position: relative;
-    top: -455px;
-    right: 85px;    
-    width: 1650px;
-    height: 18px;
-    background-color: var(--myOrange);
-    /*box-shadow: var(--myGray) 0.5px 0 30px;*/
-    border-radius: 10px;
-}
-
-nav#navbar {
-    width: 100%;
-    text-align: center;
-    height: 50px;
-    margin-bottom: 75px;
-    /* box-shadow: #26262646 1px 2px 50px; */
-}
-
-nav#navbar a {
-    text-decoration: none;
-    font-family: 'rubikregular';
-    padding: 25px;
-    width: 50px;
-    font-size: 1.4rem;
-    line-height: 50px;
-    color: var(--myGray);
-    transition: 0.3s ease-in-out;
-}
-
-nav#navbar a:hover {
-    color: var(--myBlue);
-}
-
-nav#navbar a.actuel {
-    line-height: 49px;
-    border-bottom: 1px var(--myGray) solid;
-}
-
 header,main {
     width: 70%;
     line-height: inherit;
@@ -165,9 +103,6 @@ div.projet {
 }
 
 @media only screen and (max-width: 1200px) {
-    #font-text {
-        display: none;
-    }
 
     header,main {
         width: 90%;
