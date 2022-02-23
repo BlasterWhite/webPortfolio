@@ -1,0 +1,91 @@
+main {
+    margin: 60px auto;
+    width: 80%;
+}
+
+div#contactList p, div#contactList address{
+    margin: 8px 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+input {
+    background-color: #e7e7e7;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 8px;
+}
+
+textarea {
+    resize: none;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 8px;
+}
+
+label {
+    font-weight: 600;
+}
+
+label em  {
+    font-weight: 500;
+}
+
+button[name="submit"] {
+    margin: 10px auto;
+    font-weight: bolder;
+    padding: 8px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+    background-color: var(--myGreen);
+    transition: 0.3s ease-in-out;
+    padding-left: 20px;
+}
+
+button[name="submit"] i {
+    margin-left: 4px;
+    margin-right: 8px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+button[name="submit"]:hover {
+    background-color: var(--myBlue);
+}
+button[name="submit"]:hover i {
+    margin-right: 4px;
+    margin-left: 8px;
+}
+
+@media only screen and (max-width: 1200px) {
+    main {
+        width: 100%;
+        margin: 60px auto;
+        text-align: center;
+    }
+
+    form {
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matéo G. - Home</title>
+    <link rel="stylesheet" href="css/charteGraphique.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/button.css">
+    <script src="https://kit.fontawesome.com/d50a18be62.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div id="font-text">
+        <h1>DÉVELOPPEUR</h1>
+        <div id="line"></div>
+    </div>
+    <nav>
+        <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+        <a href="#"><i class="fas fa-dolly"></i> Compétences</a>
+        <a href="#"><i class="far fa-folder"></i> Projets</a>
+        <a href="#"><i class="fa-regular fa-user"></i> A Propos</a>
+        <a href="#" class="activeTab"><i class="fa-regular fa-user"></i> Contact</a>
+        <p class="menubtn">Matéo GUEZENNEC</p>
+        <a class="menubtn">Menu <i class="far fa-compass"></i></a>
+    </nav>
+    <main>
+        <div id="contactList">
+            <h1>Me contacter</h1>
+            <h3>Mes Coordonnées : </h3>
+            <p>Adresse : <Address>kernoas, Guipavas 29490 FRANCE</Address></p>
+            <p>Adresse Universitaire : <Address>2 Rue Édouard Branly, Lannion 22300 FRANCE</Address></p>
+            <p>Mail : mat.guezen@gmail.com</p>
+            <p>Téléphone : +33 6 49 22 47 25</p>
+            <h3>Formulaire de contact direct : </h3>
+        </div>
+        <form>
+            <label for="nom">Nom</label>
+            <input type="text" name="nom">
+            <label for="prenom">Prénom</label>
+            <input type="text" name="prenom">
+            <label for="prenom">Email</label>
+            <input type="email" name="email">
+            <label for="prenom">Téléphone <em>(facultatif)</em></label>
+            <input type="tel" name="phone">
+            <label for="contenu">Contenu</label>
+            <textarea name="contenu" cols="30" rows="10"></textarea>
+            <button name="submit">Envoyer<i class="far fa-paper-plane"></i></button>
+        </form>
+    </main>
+</body>
+</html>
