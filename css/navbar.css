@@ -25,6 +25,7 @@ nav a {
 
 .menubtn {
     display: none;
+    margin: 0 15px;
 }
 
 .activeTab {

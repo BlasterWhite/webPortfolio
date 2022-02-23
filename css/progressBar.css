@@ -1,0 +1,25 @@
+div.progress.bg{
+    width: 250px;
+    background-color: #F2F2F2;
+    margin: 10px;
+}
+div.progress {
+    height: 20px;
+    border-radius: 10px;
+}
+
+div.progress:not(.bg) {
+    transition: 0.3s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+div.progress.rouge {
+    background-image: linear-gradient(to right, #d31414, #dc4f0b, #e2740e, #e69521, #e9b43b);
+}
+
+div.progress.vert {
+    background-image: linear-gradient(to right, #169402, #2ca914, #3ebe22, #50d32f, #61e93b);
+}
+
+div.progress.bleu {
+    background-image: linear-gradient(to right, #021c94, #0050bb, #007bd3, #00a4e0, #3bcbe9);
+}
