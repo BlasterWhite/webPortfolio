@@ -17,6 +17,10 @@ div.btn i {
     transition: 0.3s cubic-bezier(.68,-0.55,.27,1.55);
 }
 
+div.btn:hover {
+    cursor: pointer;
+}
+
 div.btn:hover i {
     margin-left: 5px;
     margin-right: 0px;
@@ -34,6 +38,11 @@ div.btn.vert {
 
 div.btn.rouge {
     background: linear-gradient(90deg, #df2121 0%, #fa7878 100%);
+    color: #FAFAFA;
+}
+
+div.btn.noir {
+    background: linear-gradient(90deg, #242424 0%, #575757 100%);
     color: #FAFAFA;
 }
 

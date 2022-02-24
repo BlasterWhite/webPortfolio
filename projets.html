@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matéo G. - Projets</title>
+    <link rel="stylesheet" href="css/charteGraphique.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/projets.css">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/d50a18be62.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+        <a href="#"><i class="fas fa-dolly"></i> Compétences</a>
+        <a href="#" class="activeTab"><i class="far fa-folder"></i> Projets</a>
+        <a href="#"><i class="fa-solid fa-id-card"></i> A Propos</a>
+        <a href="contact.html"><i class="fa-regular fa-user"></i> Contact</a>
+        <p class="menubtn">Matéo GUEZENNEC</p>
+        <a class="menubtn">Menu <i class="far fa-compass"></i></a>
+    </nav>
+    <main>
+        <form onsubmit="event.preventDefault();" role="search">
+            <input id="search" type="search" placeholder="Rechercher..." bar-recherche autofocus required />
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>    
+          </form>
+          <h3 id="nbProjet" style="text-align: center;">x projets trouvés</h3>
+        <div class="projet vert">
+            <h1>Poulailler Connecté</h1>
+            <div class="categories"><span class="html">HTML</span><span class="css">CSS</span><span class="js">JavaScript</span><span class="nodejs">NodeJS</span><span class="arduino">Arduino</span></div>
+            <p>Pour le grand Oral du Baccaloréat j'ai réalisé un Poulailler qui transmetté les informations capté a un site web</p>
+            <details>
+                <summary>Clique pour en savoir plus</summary>
+                <h3>Description du Projet : </h3>
+                <p>
+                    Parmit les projets proposé moi et mes 2 équipiers nous avons choisis de prends le poulailler connecté, Le projets étais de proposé une solutions pour rendre un habitat de bas cours 
+                    connecté.
+                    Nous Avons donc pense a mettre : 
+                </p>
+                <ul>
+                    <li>Puce RFID pour le comptage de poules</li>
+                    <li>Capteur de température</li>
+                    <li>Servo moteur pour ouvrir/fermer la porte</li>
+                    <li>Balence pour peuser l'eau</li>
+                    <li>Reconnaice d'image pour compter les oeufs</li>
+                    <li>toute les données envoyer sur un site web</li>
+                </ul>
+                <p>Je me suis occupé du Site Web ainsi que l'envois des données de l'arduino.</p>
+                <h3>L'Arduino :</h3>
+                <p>Dans le projet je me suis occupé de l'envois de données vers un ordinateur via le réseaux un l'encapsulation du Protocole UDP. j'ai donc pris un Arduino Uno équipé d'un Shield Ethernet</p>
+                <h3>Le Site Web :</h3>
+                <p>Pour faire une Interface Homme Machine j'ai mit en place un site web avec un server NodeJS en backend qui reçois les données UDP via le réseau puis communique avec la page web via websocket. <br> Le site web est divisé en 4 parties :</p>
+                <ol>
+                    <li>Acceuil - Toute les informations sont affichées sous forme visuel</li>
+                    <li>Logs - Toutes les informations sont affichées sous forme de tableau avec heures de récéption</li>
+                    <li>Paramètre - Où on peux voir les paramètre de reception du serveur</li>
+                    <li>Aide - Les Infos en cas de problème</li>
+                </ol>
+                <img src="assets/screens/projetBac1.png" alt="image du Panel en ligne" title="Capture d'écran du Panel du Poulailler">
+            </details>
+            <a href="https://github.com/BlasterWhite/ProjetBac" target="_blank">
+                <div class="btn noir center">
+                    Repository Github <i class="fa-brands fa-github"></i>
+                </div>
+            </a>
+        </div>
+        <div class="projet rouge">
+            <h1>Portfolio</h1>
+            <div class="categories"><span class="html">HTML</span><span class="css">CSS</span><span class="js">JavaScript</span></div>
+            <p>Description Projet</p>
+            <details>
+                <summary>Clique pour en savoir plus</summary>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci expedita exercitationem perferendis, laudantium quod a neque, deleniti totam nostrum nesciunt mollitia debitis! Earum rem error minima officia quae. Quisquam, optio.
+                </p>
+            </details>
+            <a href="https://github.com/BlasterWhite/webPortfolio" target="_blank">
+                <div class="btn noir center">
+                    Repository Github <i class="fa-brands fa-github"></i>
+                </div>
+            </a>
+        </div>
+        <div class="projet orange">
+            <h1>Site Vieux Pistons Brestons</h1>
+            <div class="categories"><span class="html">HTML</span><span class="css">CSS</span><span class="js">JavaScript</span><span class="php">PHP</span><span class="sql">MySQL</span></div>
+            <p>Description Projet</p>
+            <details>
+                <summary>Clique pour en savoir plus</summary>
+                <p>
+                    .
+                </p>
+            </details>
+            <a href="https://github.com/BlasterWhite/webPortfolio" target="_blank">
+                <div class="btn noir center">
+                    Repository Github <i class="fa-brands fa-github"></i>
+                </div>
+            </a>
+        </div>
+        <div class="projet bleu">
+            <h1>Site KohFrais</h1>
+            <div class="categories"><span class="html">HTML</span><span class="css">CSS</span><span class="js">JavaScript</span></div>
+            <p>Description Projet</p>
+            <details>
+                <summary>Clique pour en savoir plus</summary>
+                <p>
+                    .
+                </p>
+                <img src="assets/screens/KohFrait1.png" alt="Image de la page contact" title="Page Contact du site KohFrais">
+            </details>
+            <a href="https://github.com/BlasterWhite/webPortfolio" target="_blank">
+                <div class="btn noir center">
+                    Repository Github <i class="fa-brands fa-github"></i>
+                </div>
+            </a>
+        </div>
+        <div id="aucunProjet" class="cache">
+            <h1>Rien a été trouvé</h1>
+            <i class="fa-solid fa-user-secret"></i>
+        </div>
+    </main>
+    <script src="js/projet.js"></script>
+    <footer>
+        <p>Site fait avec le 💖 par Matéo GUEZENNEC</p>
+    </footer>
+</body>
+</html>
