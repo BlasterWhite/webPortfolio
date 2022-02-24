@@ -53,7 +53,13 @@ rechercheInput.addEventListener('input', e => {
             p.projet.classList.add('cache');
         }
     });
-    document.getElementById('nbProjet').innerHTML = `${listProjetFiltre.length} projets trouvés`;
+
+    if(listProjetFiltre.length > 1) {
+        document.getElementById('nbProjet').innerHTML = `${listProjetFiltre.length} projets trouvés`;
+    } else {
+        document.getElementById('nbProjet').innerHTML = `${listProjetFiltre.length} projets trouvé`;
+    }
+    
     if(listProjetFiltre.length == 0) {
         messageRienTrouve.classList.remove('cache');
     } else {
