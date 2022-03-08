@@ -1,6 +1,24 @@
 main {
     margin: 60px auto;
     width: 80%;
+    text-align: center;
+}
+
+h1.titre {
+    width: fit-content;
+    margin: 12px auto;
+    padding: 8px;
+    border-left: 8px var(--myRed) solid;
+    border-bottom: 8px var(--myGreen) solid;
+    border-right: 8px var(--myBlue) solid;
+    border-radius: 8px;
+}
+
+div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
 }
 
 div#contactList p, div#contactList address{
@@ -87,5 +105,13 @@ button[name="submit"]:hover i {
         justify-content: center;
         flex-wrap: wrap;
         width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 770px) {
+
+    div.container {
+        flex-direction: column;
     }
 }

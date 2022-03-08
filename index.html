@@ -19,13 +19,13 @@
         <div id="line"></div>
     </div>
     <nav>
-        <a href="#" class="activeTab"><i class="fas fa-home"></i> Accueil</a>
-        <a href="#"><i class="fas fa-dolly"></i> Compétences</a>
-        <a href="projets.html"><i class="far fa-folder"></i> Projets</a>
-        <a href="#"><i class="fa-solid fa-id-card"></i> A Propos</a>
-        <a href="contact.html"><i class="fa-regular fa-user"></i> Contact</a>
         <p class="menubtn">Matéo GUEZENNEC</p>
-        <a class="menubtn">Menu <i class="far fa-compass"></i></a>
+        <a class="menubtn" id="btnBurger">Menu <i class="far fa-compass"></i></a>
+        <a href="#" class="activeTab"><i class="fas fa-home"></i> Accueil</a>
+        <a href="competences.html"><i class="fas fa-dolly"></i> Compétences</a>
+        <a href="projets.html"><i class="far fa-folder"></i> Projets</a>
+        <a href="profile.html"><i class="fa-solid fa-id-card"></i> A Propos</a>
+        <a href="contact.html"><i class="fa-regular fa-user"></i> Contact</a>
     </nav>
     <br><br><br>
     <header>
@@ -37,8 +37,8 @@
     <main>
         <div class="littleabout">
             <p>
-                Je m'appel Matéo GUEZENNEC je suis actuement en 1er année de <strong>BUT Informatique</strong> a l'IUT de Lannion je suis passionné de l'univaire des nouvelles technologie, 
-                j'ai comme ambition de devenir developpeur, c'est pour ce la que j'ai apprit des langages de programmation en autodidact et que j'ai choisi sur parcours en étude supérieur.
+                Je m'appelle Mateo GUÉZENNEC, je suis actuellement en 1re année de <strong>BUT Informatique</strong> à l'IUT de Lannion, je suis passionné de l'univers des nouvelles technologie, j'ai comme ambition de devenir développeur, c'est pour se là que j'ai appris des langages de programmation en autodidacte et que j'ai choisi ce parcours en étude supérieure.
+
             </p>
             <div class="btn bleu">
                 En savoir plus <i class="fas fa-forward"></i>
@@ -63,7 +63,7 @@
                 <h4>Poulailler Connecté</h4>
                 <p>Dans le cadre du grand oral du Baccaloréat j'ai réalise système de poulailler autonome et connecté</p>
                 <div class="btn rouge center">
-                    Voir le projet <i class="fas fa-forward"></i>
+                    <a href="projets.html#poulailler">Voir le projet <i class="fas fa-forward"></i></a>
                 </div>
             </div>
             <div class="projet">
@@ -84,6 +84,7 @@
         </div>
     </main>
     <script src="js/calculdate.js"></script>
+    <script src="js/navbar.js"></script>
     <footer>
         <p>Site fait avec le 💖 par Matéo GUEZENNEC</p>
         <ul>

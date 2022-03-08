@@ -16,7 +16,7 @@
 <body>
     <nav>
         <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
-        <a href="#"><i class="fas fa-dolly"></i> Compétences</a>
+        <a href="competences.html"><i class="fas fa-dolly"></i> Compétences</a>
         <a href="projets.html"><i class="far fa-folder"></i> Projets</a>
         <a href="#"><i class="fa-solid fa-id-card"></i> A Propos</a>
         <a href="#" class="activeTab"><i class="fa-regular fa-user"></i> Contact</a>
@@ -24,28 +24,30 @@
         <a class="menubtn">Menu <i class="far fa-compass"></i></a>
     </nav>
     <main>
-        <div id="contactList">
-            <h1>Me contacter</h1>
-            <h3>Mes Coordonnées : </h3>
-            <p>Adresse : <Address>kernoas, Guipavas 29490 FRANCE</Address></p>
-            <p>Adresse Universitaire : <Address>2 Rue Édouard Branly, Lannion 22300 FRANCE</Address></p>
-            <p>Mail : mat.guezen@gmail.com</p>
-            <p>Téléphone : +33 6 49 22 47 25</p>
-            <h3>Formulaire de contact direct : </h3>
+        <h1 class="titre">Me contacter</h1>
+        <div class="container">
+            <div id="contactList">
+                <h3>Mes Coordonnées : </h3>
+                <p>Adresse : <Address>kernoas, Guipavas 29490 FRANCE</Address></p>
+                <p>Adresse Universitaire : <Address>2 Rue Édouard Branly, Lannion 22300 FRANCE</Address></p>
+                <p>Mail : mat.guezen@gmail.com</p>
+                <p>Téléphone : +33 6 49 22 47 25</p>
+            </div>
+            <form>
+                <h3>Formulaire de contact direct : </h3>
+                <label for="nom">Nom</label>
+                <input type="text" name="nom">
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom">
+                <label for="prenom">Email</label>
+                <input type="email" name="email">
+                <label for="prenom">Téléphone <em>(facultatif)</em></label>
+                <input type="tel" name="phone">
+                <label for="contenu">Contenu</label>
+                <textarea name="contenu" cols="30" rows="10"></textarea>
+                <button name="submit">Envoyer<i class="far fa-paper-plane"></i></button>
+            </form>
         </div>
-        <form>
-            <label for="nom">Nom</label>
-            <input type="text" name="nom">
-            <label for="prenom">Prénom</label>
-            <input type="text" name="prenom">
-            <label for="prenom">Email</label>
-            <input type="email" name="email">
-            <label for="prenom">Téléphone <em>(facultatif)</em></label>
-            <input type="tel" name="phone">
-            <label for="contenu">Contenu</label>
-            <textarea name="contenu" cols="30" rows="10"></textarea>
-            <button name="submit">Envoyer<i class="far fa-paper-plane"></i></button>
-        </form>
     </main>
     <footer>
         <p>Site fait avec le 💖 par Matéo GUEZENNEC</p>

@@ -1,0 +1,32 @@
+main {
+    margin: 75px auto;
+    width: 80%;
+}
+
+div#container {
+    min-height: min-content;
+    width: 100%;
+    border-radius: 24px;
+    background-color: #dddddd;
+}
+
+div#header {
+    padding: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div#header img {
+    border-radius: 50%;
+    z-index: 1;
+}
+
+div#header h1 {
+    font-size: 3.8rem;
+}
+
+div#main {
+    padding: 45px;
+}

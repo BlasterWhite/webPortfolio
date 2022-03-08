@@ -93,6 +93,11 @@ div#projets {
     flex-wrap: wrap;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 div.projet {
     text-align: center;
     background-color: #F2F2F2;
