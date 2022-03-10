@@ -3,43 +3,61 @@ main {
 }
 div#Skills {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-content: center;
 }
+
+div#softskill,div#hardskill {
+    width: 40%;
+}
+
 div.skill h2 {
-    margin: 2px;
+    margin: 4px 2px;
     text-align: center;
     letter-spacing: 0.3rem;
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
 }
 div.skill {
     padding: 2px 10px;
-    min-height: 120px;    
+    min-height: fit-content;    
     border-radius: 8px;
-    animation: test 1.5s both;
     margin: 15px;
     color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 div.skill.hard {
-    background-color: var(--myRed);
-    align-self: flex-end;    
+    background-color: var(--myRed); 
+    animation: cote1 1.5s both; 
 }
 
 div.skill.soft {
     background-color: var(--myBlue);
-    align-self: flex-start;
+    animation: cote2 1.5s both; 
 }
 
-@keyframes test {
+
+@keyframes cote1 {
     from {
         opacity: 0;
         width: 5%;
     }
     to {
         opacity: 1;
-        width: 70%;
+        width: 100%;
+    }
+}
+
+@keyframes cote2 {
+    from {
+        opacity: 0;
+        width: 5%;
+    }
+    to {
+        opacity: 1;
+        width: 100%;
     }
 }
