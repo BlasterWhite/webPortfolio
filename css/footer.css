@@ -35,3 +35,11 @@ a.linkedin:hover {
 a.github:hover {
     color: var(--myYellow);    
 }
+
+@media only screen and (max-width: 500px) {
+    footer p {
+        text-align: center;
+        padding: 5px;
+    }
+
+}

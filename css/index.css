@@ -116,7 +116,7 @@ div.projet {
     }
     div.littleabout {
         width: 90%;
-        padding: 20px;
+        padding: 10px;
     }
     
 }
@@ -177,6 +177,48 @@ div.projet {
     #font-text {
         display: none;
     }    
+}
+
+@media only screen and (max-width: 550px) {
+    h2.name {
+        font-size: 3.5rem;
+        text-align: center;
+        margin-top: 15px;
+    }  
+
+    div.projet {
+        min-width: 0px;
+        width: 100%;
+        background-color: #F2F2F2;
+        margin: 25px 4px;
+        padding: 8px;
+    }
+    
+    img.iconL {
+        width: 75px;
+        opacity: 50%;
+        margin: 50px;
+        border-radius: 15px;
+    }
+
+    header,main {
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    header * {
+        margin-left: 10px;
+    }
+
+    header p {
+        display: none;
+    }
+
+    h2#age {
+        font-size: 2rem;
+        display: block;
+        text-align: center;
+    }
 }
 
 @keyframes backgrounds {

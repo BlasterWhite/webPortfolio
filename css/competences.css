@@ -1,6 +1,7 @@
 main {
     padding: 75px 12px 80px 12px;
 }
+
 div#Skills {
     display: flex;
     flex-direction: row;
@@ -37,6 +38,37 @@ div.skill.hard {
 div.skill.soft {
     background-color: var(--myBlue);
     animation: cote2 1.5s both; 
+}
+
+@media only screen and (max-width: 770px) {
+    div#Skills {
+        width: 100%;
+        margin: 12px auto;
+        display: block;
+    }
+
+    div#softskill,div#hardskill {
+        width: 90%;
+        margin: 0px 0px;
+        padding: 2.5%;
+    }
+    
+    div.skill {
+        margin: 15px 0px;
+        min-height: 0px;
+    }
+    main {
+        padding: 75px 0px 80px 0px;
+    }
+    
+    div.skill h2 {
+        margin: 0px 0px;
+        text-align: center;
+        letter-spacing: 0.3rem;
+        font-weight: bold;
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+    }
 }
 
 

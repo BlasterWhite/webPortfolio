@@ -1,5 +1,5 @@
 main {
-    margin: 60px auto;
+    margin: 60px auto 0px auto;
     width: 80%;
     text-align: center;
 }
@@ -88,7 +88,7 @@ button[name="submit"]:hover i {
 @media only screen and (max-width: 1200px) {
     main {
         width: 100%;
-        margin: 60px auto;
+        margin: 60px auto 0px auto;
         text-align: center;
     }
 

@@ -1,2 +1,6 @@
 tests/
 skills.js
+id_rsa
+rsaKEY.txt
+id_rsa.ppk
+rsaPublic.txt

@@ -218,3 +218,30 @@ div#aucunProjet i {
     font-size: 8rem;
     color: var(--myGray);
 }
+
+@media only screen and (max-width: 770px) {
+    header, main {
+        background-color: var(--myWhite);
+        width: 95%;
+        padding: 0px;
+        margin: 75px auto 0px auto;
+    }
+    
+    div.projet {
+        margin: 15px;
+        padding: 15px;
+        background-color: #F2F2F2;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    form {
+        width: 70%;
+    }
+    
+    input, button {
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+    
+
+}
