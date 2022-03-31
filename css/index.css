@@ -5,6 +5,10 @@ header,main {
     animation: aparait 0.7s both;
 }
 
+footer {
+    position: relative;
+}
+
 h2.name, .tiret{
     font-size: 5rem;
     margin: 0;

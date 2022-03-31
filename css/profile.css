@@ -3,6 +3,10 @@ main {
     width: 80%;
 }
 
+footer {
+    position: relative;
+}
+
 div#container {
     min-height: min-content;
     width: 100%;

@@ -46,6 +46,11 @@ div.btn.noir {
     color: #FAFAFA;
 }
 
+div.btn.orange {
+    background: linear-gradient(90deg, #c78201 0%, #ffc82f 100%);
+    color: #FAFAFA;
+}
+
 div.btn.center {
     margin: 15px auto;
 }
