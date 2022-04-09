@@ -1,0 +1,21 @@
+main {
+    margin: 60px auto 0px auto;
+    width: 80%;
+    text-align: center;
+}
+
+h1.titre {
+    margin: 12px auto;
+    padding: 8px;
+}
+
+p {
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    margin: 12px auto;
+    border: 2px black solid;
+    border-radius: 4px;
+}
