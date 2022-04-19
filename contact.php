@@ -17,16 +17,13 @@
  
         if (mail($to,$subject,$message, $headers)) { 
             $msg = '<p>Votre message a été envoyé!</p>';
-            echo $msg;
         } else { 
             echo mail($to,$subject,$message, $headers);
             $msg = '<p>Votre message n\'a pas été envoyé!</p>';
-            echo $msg;
         }
         
     } else {
         $msg = '<p>Votre message n\'a pas été envoyé!</p>';
-        echo $msg;
     }
 ?>
 <!DOCTYPE html>
@@ -80,6 +77,7 @@
                 <label for="contenu">Contenu</label>
                 <textarea name="contenu" cols="30" rows="10" require></textarea>
                 <button name="submit">Envoyer<i class="far fa-paper-plane"></i></button>
+                <p style="margin=0px; padding=4px"><?php echo $msg; ?></p>
             </form>
         </div>
     </main>
