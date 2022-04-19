@@ -21,9 +21,6 @@
             echo mail($to,$subject,$message, $headers);
             $msg = '<p>Votre message n\'a pas été envoyé!</p>';
         }
-        
-    } else {
-        $msg = '<p>Votre message n\'a pas été envoyé!</p>';
     }
 ?>
 <!DOCTYPE html>
