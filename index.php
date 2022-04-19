@@ -24,10 +24,10 @@
         <p class="menubtn">Matéo GUEZENNEC</p>
         <a class="menubtn" id="btnBurger">Menu <i class="far fa-compass"></i></a>
         <a href="#" class="activeTab"><i class="fas fa-home"></i> Accueil</a>
-        <a href="competences.html"><i class="fas fa-dolly"></i> Compétences</a>
-        <a href="projets.html"><i class="far fa-folder"></i> Projets</a>
-        <a href="profile.html"><i class="fa-solid fa-id-card"></i> A Propos</a>
-        <a href="contact.html"><i class="fa-regular fa-user"></i> Contact</a>
+        <a href="competences"><i class="fas fa-dolly"></i> Compétences</a>
+        <a href="projets"><i class="far fa-folder"></i> Projets</a>
+        <a href="profile"><i class="fa-solid fa-id-card"></i> A Propos</a>
+        <a href="contact"><i class="fa-regular fa-user"></i> Contact</a>
     </nav>
     <br><br><br>
     <header>
@@ -96,7 +96,7 @@
     <script src="js/navbar.js"></script>
     <footer>
         <div class="footertop">
-            <p>Site fait avec le 💖 par Matéo GUEZENNEC</p>
+            <p>Sites fait avec le 💖 par Matéo GUEZENNEC</p>
             <ul>
                 <li><a href="https://www.linkedin.com/in/mateo-guezennec/" class="linkedin" target="_blank">LinkedIn <i class="fa-brands fa-linkedin"></a></i></li>
                 <li><a href="https://github.com/BlasterWhite" class="github" target="_blank">Github <i class="fa-brands fa-github"></i></a></li>

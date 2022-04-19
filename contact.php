@@ -1,3 +1,34 @@
+<?php 
+    if(isset($_POST['submit']) AND $_POST['contenu'] != '' AND $_POST['nom'] != '' AND $_POST['prenom'] != '' AND $_POST['email'] != '') {
+    
+        $name = $_POST['nom'] . ' ' . $_POST['prenom'];
+        $from = $_POST['email'];
+        $to = "icarambala@gmail.com";
+        $subject = "Contact mateo-guezennec.fr";
+        $headers = "Message de :" . $from;
+        
+        $message =  "De : $name\nE-Mail : $from\n";
+
+        if($_POST['phone'] != '') {
+            $message .= "Téléphone : ".$_POST['phone']."\n";
+        }
+
+        $message .= "Message :\n" . $_POST['contenu'];
+ 
+        if (mail($to,$subject,$message, $headers)) { 
+            $msg = '<p>Votre message a été envoyé!</p>';
+            echo $msg;
+        } else { 
+            echo mail($to,$subject,$message, $headers);
+            $msg = '<p>Votre message n\'a pas été envoyé!</p>';
+            echo $msg;
+        }
+        
+    } else {
+        $msg = '<p>Votre message n\'a pas été envoyé!</p>';
+        echo $msg;
+    }
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -19,10 +50,10 @@
     <nav>
         <p class="menubtn">Matéo GUEZENNEC</p>
         <a class="menubtn" id="btnBurger">Menu <i class="far fa-compass"></i></a>
-        <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
-        <a href="competences.html"><i class="fas fa-dolly"></i> Compétences</a>
-        <a href="projets.html"><i class="far fa-folder"></i> Projets</a>
-        <a href="profile.html"><i class="fa-solid fa-id-card"></i> A Propos</a>
+        <a href="index"><i class="fas fa-home"></i> Accueil</a>
+        <a href="competences"><i class="fas fa-dolly"></i> Compétences</a>
+        <a href="projets"><i class="far fa-folder"></i> Projets</a>
+        <a href="profile"><i class="fa-solid fa-id-card"></i> A Propos</a>
         <a href="#" class="activeTab"><i class="fa-regular fa-user"></i> Contact</a>
     </nav>
     <main>
@@ -36,19 +67,19 @@
                 <p>Téléphone : +33 6 49 22 47 25</p>
                 <p><a href="assets/files/CV.pdf">Mon CV</a></p>
             </div>
-            <form>
+            <form method="post" action="contact.php">
                 <h3>Formulaire de contact direct : </h3>
                 <label for="nom">Nom</label>
-                <input type="text" name="nom">
+                <input type="text" name="nom" require>
                 <label for="prenom">Prénom</label>
-                <input type="text" name="prenom">
+                <input type="text" name="prenom" require>
                 <label for="prenom">Email</label>
-                <input type="email" name="email">
+                <input type="email" name="email" require>
                 <label for="prenom">Téléphone <em>(facultatif)</em></label>
                 <input type="tel" name="phone">
                 <label for="contenu">Contenu</label>
-                <textarea name="contenu" cols="30" rows="10"></textarea>
-                <button name="submit" disabled>Envoyer<i class="far fa-paper-plane"></i></button>
+                <textarea name="contenu" cols="30" rows="10" require></textarea>
+                <button name="submit">Envoyer<i class="far fa-paper-plane"></i></button>
             </form>
         </div>
     </main>

@@ -19,11 +19,11 @@
     <nav>
         <p class="menubtn">Matéo GUEZENNEC</p>
         <a class="menubtn" id="btnBurger">Menu <i class="far fa-compass"></i></a>
-        <a href="index.html"><i class="fas fa-home"></i> Accueil</a>
+        <a href="index"><i class="fas fa-home"></i> Accueil</a>
         <a href="#" class="activeTab"><i class="fas fa-dolly"></i> Compétences</a>
-        <a href="projets.html"><i class="far fa-folder"></i> Projets</a>
-        <a href="profile.html"><i class="fa-solid fa-id-card"></i> A Propos</a>
-        <a href="contact.html"><i class="fa-regular fa-user"></i> Contact</a>
+        <a href="projets"><i class="far fa-folder"></i> Projets</a>
+        <a href="profile"><i class="fa-solid fa-id-card"></i> A Propos</a>
+        <a href="contact"><i class="fa-regular fa-user"></i> Contact</a>
     </nav>
     <main>
         <div id="Skills">
