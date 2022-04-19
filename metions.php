@@ -80,7 +80,7 @@ telles que notamment prévues par le Code de la propriété intellectuelle et le
                 <li><a href="https://github.com/BlasterWhite" class="github" target="_blank">Github <i class="fa-brands fa-github"></i></a></li>
             </ul>
         </div>
-        <a href="metions.html" id="mentions"><i class="fa-solid fa-scale-balanced"></i><p>Mentions légales</p></a>
+        <a href="metions" id="mentions"><i class="fa-solid fa-scale-balanced"></i><p>Mentions légales</p></a>
     </footer>
 </body>
 </html>

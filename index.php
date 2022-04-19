@@ -42,7 +42,7 @@
                 Je suis actuellement en 1re année de <strong>BUT Informatique</strong> à l'IUT de Lannion, je suis passionné par de l'univers des nouvelles technologies, j'ai comme ambition de devenir développeur, c'est pour cela que j'apprends des langages de programmation en autodidacte et que j'ai choisi ce parcours en études supérieures.
             </p>
             <div class="btn bleu">
-                <a href="profile.html">
+                <a href="profile">
                     En savoir plus <i class="fas fa-forward"></i>
                 </a>
             </div>
@@ -65,7 +65,7 @@
             <div class="projet">
                 <h4>Poulailler Connecté</h4>
                 <p>Dans le cadre du grand oral du Baccalauréat j'ai réalisé un système de poulailler autonome et connecté</p>
-                <a href="projets.html#P_poulailler">
+                <a href="projets#P_poulailler">
                     <div class="btn rouge center">
                         Voir le projet <i class="fas fa-forward"></i>
                     </div>
@@ -75,7 +75,7 @@
                 <h4>Portfolio</h4>
                 <p>Afin de développer mes compétences en développement Web & améliorer mon CV j'ai réalisé un Portfolio
                 </p>
-                <a href="projets.html#P_portfolio">
+                <a href="projets#P_portfolio">
                     <div class="btn rouge center">
                         Voir le projet <i class="fas fa-forward"></i>
                     </div>
@@ -84,7 +84,7 @@
             <div class="projet">
                 <h4>Site Vitrine</h4>
                 <p>Dans le cadre d'un projet scolaire j'ai réalisé un site vitrine pour une entreprise fictive nommé KohFrais</p>
-                <a href="projets.html#P_kohfrais">
+                <a href="projets#P_kohfrais">
                     <div class="btn rouge center">
                         Voir le projet <i class="fas fa-forward"></i>
                     </div>
@@ -102,7 +102,7 @@
                 <li><a href="https://github.com/BlasterWhite" class="github" target="_blank">Github <i class="fa-brands fa-github"></i></a></li>
             </ul>
         </div>
-        <a href="metions.html" id="mentions"><i class="fa-solid fa-scale-balanced"></i><p>Mentions légales</p></a>
+        <a href="metions" id="mentions"><i class="fa-solid fa-scale-balanced"></i><p>Mentions légales</p></a>
     </footer>
 </body>
 </html>
