@@ -39,7 +39,7 @@
     <main>
         <div class="littleabout">
             <p>
-                Je suis actuellement en 1re année de <strong>BUT Informatique</strong> à l'IUT de Lannion, je suis passionné par de l'univers des nouvelles technologies, j'ai comme ambition de devenir développeur, c'est pour cela que j'apprends des langages de programmation en autodidacte et que j'ai choisi ce parcours en études supérieures.
+                Je suis actuellement en 1re année de <strong>BUT Informatique</strong> à l'IUT de Lannion, je suis passionné par l'univers des nouvelles technologies, j'ai comme ambition de devenir développeur, c'est pour cela que j'apprends des langages de programmation en autodidacte et que j'ai choisi ce parcours en études supérieures.
             </p>
             <div class="btn bleu">
                 <a href="profile">

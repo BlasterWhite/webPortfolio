@@ -58,7 +58,7 @@
                             <h2><i class="fa-solid fa-briefcase"></i> Recherche D'alternance</h2>
                             <h3>Janvier 2022 - Présent</h3>
                             <p>
-                                Je suis actuellement à la recherche d'une <span class="surligne">alternance sur 2 ans</span> afin de découvrir le monde du travail et de valider mon Bachelors Universitaires de Technologie en Informatique.
+                                Je suis actuellement à la recherche d'une <span class="surligne">alternance sur 2 ans</span> afin de découvrir le monde du travail et de valider mon Bachelor Universitaire de Technologie en Informatique.
                             </p>
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                             <h2><i class="fa-solid fa-graduation-cap"></i> BUT Informatique</h2>
                             <h3>Septembre 2021 - Présent</h3>
                             <p>
-                                Parmi les possibilités qui s'offraient à moi pour mes études supérieures, j'ai choisi le <span class="surligne">Bachelors Universitaires de Technologie en Informatique</span> à l'IUT de Lannion. Cette formation est la plus adapté mon envie de devenir un <span class="surligne">developpeur Informatique</span>. 
+                                Parmi les possibilités qui s'offraient à moi pour mes études supérieures, j'ai choisi le <span class="surligne">Bachelor Universitaire de Technologie en Informatique</span> à l'IUT de Lannion. Cette formation est la plus adaptée mon envie de devenir <span class="surligne">developpeur Informatique</span>. 
                             </p>
                             <hr style="width: 50%;">
                             <p>Le B.U.T informatique articule des enseignements théoriques et des travaux pratiques. Il permet de développer des connaissances et des compétences techniques spécialisées en informatique : <span class="surligne">réseaux</span>, <span class="surligne">C++</span> et <span class="surligne">C#</span>, <span class="surligne">Java</span>, <span class="surligne">PHP</span>, .. ou Framework, informatique graphique appliquée aux domaines de l'imagerie numérique, de la synthèse d'images pour développer des applications 3D, interactives et immersives, pour l'animation d'objets ou personnages etc. Ces enseignements sont complétés par des cours en <span class="surligne">mathématiques</span>, en <span class="surligne">économie-gestion</span>, en <span class="surligne">communication</span> et d'<span class="surligne">anglais</span>.</p>
