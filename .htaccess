@@ -1,4 +1,4 @@
-ErrorDocument 404 https://mateo-guezennec.fr/
+ErrorDocument 404 https://mateo-guezennec.fr/404page
 RewriteEngine on
 
 # Si un dossier existe avec le meme nom alors on annule le changement
