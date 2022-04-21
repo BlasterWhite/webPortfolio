@@ -1,4 +1,5 @@
 <?php 
+    $msg = "";
     if(isset($_POST['submit']) AND $_POST['contenu'] != '' AND $_POST['nom'] != '' AND $_POST['prenom'] != '' AND $_POST['email'] != '') {
     
         $name = $_POST['nom'] . ' ' . $_POST['prenom'];
@@ -47,7 +48,7 @@
         <a href="index"><i class="fas fa-home"></i> Accueil</a>
         <a href="competences"><i class="fas fa-dolly"></i> Compétences</a>
         <a href="projets"><i class="far fa-folder"></i> Projets</a>
-        <a href="profile"><i class="fa-solid fa-id-card"></i> A Propos</a>
+        <a href="profile"><i class="fa-solid fa-id-card"></i> Profile</a>
         <a href="#" class="activeTab"><i class="fa-regular fa-user"></i> Contact</a>
     </nav>
     <main>
@@ -57,6 +58,8 @@
                 <h3>Mes Coordonnées : </h3>
                 <p>Adresse : <Address>kernoas, Guipavas 29490 FRANCE</Address></p>
                 <p>Adresse Universitaire : <Address>2 Rue Édouard Branly, Lannion 22300 FRANCE</Address></p>
+                <p><i class="fa-brands fa-linkedin"></i> LinkedIn : <a href="https://www.linkedin.com/in/mateo-guezennec/" target="_blank">mateo-guezennec</a></p>
+                <p><i class="fa-brands fa-github"></i> Github : <a href="https://github.com/BlasterWhite" target="_blank"> BlasterWhite</a></p>
                 <p>Mail : mat.guezen@gmail.com</p>
                 <p>Téléphone : +33 6 49 22 47 25</p>
                 <p><a href="assets/files/CV.pdf">Mon CV</a></p>

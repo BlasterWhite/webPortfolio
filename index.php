@@ -50,15 +50,22 @@
         <div class="separator"></div>
         <h3 class="souspartie">Mes Compétences</h3>
         <div id="langages">
-            <img src="assets/icon/c512black.png" alt="Logo du langage C" title="Langage C" class="iconL">
-            <img src="assets/icon/css512black.png" alt="Logo du langage CSS" title="Langage CSS" class="iconL">
-            <img src="assets/icon/html512black.png" alt="Logo du langage html" title="Langage html" class="iconL">
-            <img src="assets/icon/java512black.png" alt="Logo du langage java" title="Langage java" class="iconL">
-            <img src="assets/icon/javascript512black.png" alt="Logo du langage javascript" title="Langage javascript" class="iconL">
-            <img src="assets/icon/linux512black.png" alt="Logo du langage linux" title="Langage linux" class="iconL">
-            <img src="assets/icon/php512black.png" alt="Logo du langage php" title="Langage php" class="iconL">
-            <img src="assets/icon/python512black.png" alt="Logo du langage python" title="Langage python" class="iconL">
+            <img src="assets/icon/c512black.png" alt="Logo du langage C" title="Langage C" class="selectDisable iconL">
+            <img src="assets/icon/css512black.png" alt="Logo du langage CSS" title="Langage CSS" class="selectDisable iconL">
+            <img src="assets/icon/html512black.png" alt="Logo du langage html" title="Langage html" class="selectDisable iconL">
+            <img src="assets/icon/java512black.png" alt="Logo du langage java" title="Langage java" class="selectDisable iconL">
+            <img src="assets/icon/javascript512black.png" alt="Logo du langage javascript" title="Langage javascript" class="selectDisable iconL">
+            <img src="assets/icon/linux512black.png" alt="Logo du langage linux" title="Langage linux" class="selectDisable iconL">
+            <img src="assets/icon/php512black.png" alt="Logo du langage php" title="Langage php" class="selectDisable iconL">
+            <img src="assets/icon/sql512black.png" alt="Logo du langage SQL" title="Langage SQL" class="selectDisable iconL">
+            <img src="assets/icon/python512black.png" alt="Logo du langage python" title="Langage python" class="selectDisable iconL">
+            <img src="assets/icon/bash512black.png" alt="Logo du langage Bash" title="Langage Bash" class="selectDisable iconL">
         </div>
+        <a href="competences">
+            <div class="btn orange center">
+                Voir Toutes Mes Compétences <i class="fas fa-forward"></i>
+            </div>
+        </a>
         <div class="separator"></div>
         <h3 class="souspartie">Mes Projets</h3>
         <div id="projets">

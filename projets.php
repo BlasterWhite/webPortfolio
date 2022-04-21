@@ -22,7 +22,7 @@
         <a href="index"><i class="fas fa-home"></i> Accueil</a>
         <a href="competences"><i class="fas fa-dolly"></i> Compétences</a>
         <a href="#" class="activeTab"><i class="far fa-folder"></i> Projets</a>
-        <a href="profile"><i class="fa-solid fa-id-card"></i> A Propos</a>
+        <a href="profile"><i class="fa-solid fa-id-card"></i> Profile</a>
         <a href="contact"><i class="fa-regular fa-user"></i> Contact</a>
     </nav>
     <main>
@@ -71,7 +71,7 @@
         </div>
         <div class="projet rouge" id="P_portfolio">
             <h1>Portfolio</h1>
-            <div class="categories"><span class="html">HTML</span><span class="css">CSS</span><span class="js">JavaScript</span></div>
+            <div class="categories"><span class="css">CSS</span><span class="js">JavaScript</span><span class="html">HTML</span><span class="php">PHP</span></div>
             <p>Dans la démarche de développer mon CV et de présenter mes projets j'ai réalisé le site que vous visitez actuellement.</p>
             <details>
                 <summary>Clique pour en savoir plus</summary>
