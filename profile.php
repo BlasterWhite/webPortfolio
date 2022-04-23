@@ -22,13 +22,13 @@
         <a href="index"><i class="fas fa-home"></i> Accueil</a>
         <a href="competences"><i class="fas fa-dolly"></i> Compétences</a>
         <a href="projets"><i class="far fa-folder"></i> Projets</a>
-        <a href="#" class="activeTab"><i class="fa-solid fa-id-card"></i> Profile</a>
+        <a href="#" class="activeTab"><i class="fa-solid fa-id-card"></i> Profil</a>
         <a href="contact"><i class="fa-regular fa-user"></i> Contact</a>
     </nav>
     <main>
         <div id="container">
             <div id="bar">
-                <p style="padding: 0px;margin: 2px;">Profile Matéo GUEZENNEC.txt</p>
+                <p style="padding: 0px;margin: 2px;">Profil Matéo GUEZENNEC.txt</p>
                 <div>
                     <span class="barIcon" id="barclose">X</span>
                     <span class="barIcon" id="barmaxi">▢</span>

@@ -26,7 +26,7 @@
         <a href="#" class="activeTab"><i class="fas fa-home"></i> Accueil</a>
         <a href="competences"><i class="fas fa-dolly"></i> Compétences</a>
         <a href="projets"><i class="far fa-folder"></i> Projets</a>
-        <a href="profile"><i class="fa-solid fa-id-card"></i> Profile</a>
+        <a href="profile"><i class="fa-solid fa-id-card"></i> Profil</a>
         <a href="contact"><i class="fa-regular fa-user"></i> Contact</a>
     </nav>
     <br><br><br>
@@ -42,7 +42,7 @@
                 Je suis actuellement en 1re année de <strong>BUT Informatique</strong> à l'IUT de Lannion, je suis passionné par l'univers des nouvelles technologies, j'ai comme ambition de devenir développeur, c'est pour cela que j'apprends des langages de programmation en autodidacte et que j'ai choisi ce parcours en études supérieures.
             </p>
             <div class="btn bleu">
-                <a href="profile">
+                <a href="profil">
                     En savoir plus <i class="fas fa-forward"></i>
                 </a>
             </div>
