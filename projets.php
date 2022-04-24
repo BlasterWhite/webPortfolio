@@ -63,11 +63,13 @@
                 </ol>
                 <img src="assets/screens/projetBac1.png" alt="image du Panel en ligne" title="Capture d'écran du Panel du Poulailler">
             </details>
-            <a href="https://github.com/BlasterWhite/ProjetBac" target="_blank">
-                <div class="btn noir center">
-                    Repository Github <i class="fa-brands fa-github"></i>
-                </div>
-            </a>
+            <div class="buttons">
+                <a href="https://github.com/BlasterWhite/ProjetBac" target="_blank">
+                    <div class="btn noir center">
+                        Repository Github <i class="fa-brands fa-github"></i>
+                    </div>
+                </a>
+            </div>
         </div>
         <div class="projet rouge" id="P_portfolio">
             <h1>Portfolio</h1>
@@ -92,7 +94,7 @@
                 <p>L'étape finale était le peuplement du site avec tous les projets que j'avais déjà fait puis le remplissage des autres pages avec toutes les informations.</p>
                 <img src="assets/screens/WebPortfolio1.png" alt="Capture d'écran de la page d'Accueil du site">
             </details>
-            <div style="display: flex;justify-content: center;">
+            <div class="buttons">
                 <a href="https://github.com/BlasterWhite/webPortfolio" target="_blank" style="width: fit-content;">
                     <div class="btn noir center">
                         Repository Github <i class="fa-brands fa-github"></i>
@@ -127,11 +129,13 @@
                 <p>Le compte Admin a tous les droits, de la création, suppression, modification de compte et d'article, à la création d'événements et d'actualité membre</p>
                 <img src="assets/screens/vpb1.png" alt="Capture d'écran page Accueil vieuxpistonsbretons.fr">
             </details>
-            <a href="https://vieuxpistonsbretons.fr" target="_blank">
-                <div class="btn orange center">
-                    Site Web <i class="fa-solid fa-globe"></i>
-                </div>
-            </a>
+            <div class="buttons">
+                <a href="https://vieuxpistonsbretons.fr" target="_blank">
+                    <div class="btn orange center">
+                        Site Web <i class="fa-solid fa-globe"></i>
+                    </div>
+                </a>
+            </div>
         </div>
         <div class="projet bleu" id="P_kohfrais">
             <h1>Site KohFrais</h1>
@@ -153,7 +157,7 @@
                 <p>Tout notre travail a été sauvegardé étape par étape grâce au Gitlab de l'IUT, ce qui m'a permis d'apprendre l'utilité des outils comme <strong>git</strong>.</p>
                 <img src="assets/screens/KohFrait1.png" alt="Image de la page contact" title="Page Contact du site KohFrais">
             </details>
-            <div style="display: flex;justify-content: center;">
+            <div class="buttons">
                 <a href="https://github.com/BlasterWhite/webPortfolio" target="_blank" style="width: fit-content;">
                     <div class="btn noir center">
                         Repository Github <i class="fa-brands fa-github"></i>
@@ -185,7 +189,7 @@
                 Durant ce projet j'ai fait globalement les étapes de création d'un logiciel qui sont: modélisation, programmation, puis phases de test.
                 <img src="assets/screens/yams1.png" alt="Image de la page contact" title="Capture d'écran début du jeu">
             </details>
-            <div style="display: flex;justify-content: center;">
+            <div class="buttons">
                 <a href="https://github.com/BlasterWhite/YamsCLI" target="_blank" style="width: fit-content;">
                     <div class="btn noir center">
                         Repository Github <i class="fa-brands fa-github"></i>
@@ -208,7 +212,7 @@
                 </p>
                 <img src="assets/screens/pbCavalier1.png" alt="Image de la page contact" title="Capture d'écran début du jeu">
             </details>
-            <div style="display: flex;justify-content: center;">
+            <div class="buttons">
                 <a href="https://github.com/BlasterWhite/ChevalierEchec" target="_blank" style="width: fit-content;">
                     <div class="btn noir center">
                         Repository Github <i class="fa-brands fa-github"></i>
