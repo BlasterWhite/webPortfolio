@@ -158,7 +158,7 @@
                 <img src="assets/screens/KohFrait1.png" alt="Image de la page contact" title="Page Contact du site KohFrais">
             </details>
             <div class="buttons">
-                <a href="https://github.com/BlasterWhite/webPortfolio" target="_blank" style="width: fit-content;">
+                <a href="https://github.com/BlasterWhite/KohFrais" target="_blank" style="width: fit-content;">
                     <div class="btn noir center">
                         Repository Github <i class="fa-brands fa-github"></i>
                     </div>
