@@ -55,11 +55,12 @@
                 <div class="timeline">
                     <div class="timelinecontainer gauche rouge">
                         <div class="containerContenu">
-                            <h2><i class="fa-solid fa-briefcase"></i> Recherche D'alternance</h2>
-                            <h3>Janvier 2022 - Présent</h3>
+                            <h2><i class="fa-solid fa-briefcase"></i> Alternance Chez CYIM</h2>
+                            <h3>Septembre 2022 - Présent</h3>
                             <p>
-                                Je suis actuellement à la recherche d'une <span class="surligne">alternance sur 2 ans</span> afin de découvrir le monde du travail et de valider mon Bachelor Universitaire de Technologie en Informatique.
+                                Je suis actuellement <span class="surligne">alternant</span> chez l'entreprise CYIM en tant que <span class="surligne">développeur</span>. Cette Alternance me permet de découvrir le monde du travail et de valider mon Bachelor Universitaire de Technologie en Informatique.
                             </p>
+                            <img src="assets/icon/icon_CYIM.svg" alt="logo de CYIM" title="logo de CYIM">
                         </div>
                     </div>
                     <div class="timelinecontainer droite bleu">
